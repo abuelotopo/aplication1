@@ -1,7 +1,24 @@
+
+
+/*BIEN LA PARTE DEL CSS ES FACIL DE AVERIGUAR Y TAMBIEN LA MAYORIA DE ESTOS VALORES YA TU LO DOMINAS ASI QUE NO VEO LA NECESIDAD
+DE MAYOR DOCUMENTACION */
+html{
+	background: #999;
+}
 body{
 width: 65%;
 margin: 0px auto;
-
+background: white;
+height: 900px;
+}
+h3{
+	border-bottom: 1px solid black;
+	text-align: center;
+	clear: both;
+}
+footer {
+	width: 80%;
+	margin: 200px auto;
 }
 .G0{
 	color: #1FB2E6;
@@ -17,7 +34,7 @@ margin: 0px auto;
 	clear: both;
 }
 .G4{
-	background:#E7F0E5;
+	background: #EEE;
 	border-radius: 2px;
 	width: 100px;
 	height: 20px;
@@ -30,12 +47,24 @@ margin: 0px auto;
 	height: 20px;
 	margin-bottom: 4px;
 }
+.G6{
+	position: relative;
+}
+.G7{
+    position: absolute;
+    top: 0;
+    left: -9.5px;
+}
+.G7:hover{
+	background: #1FB2E6;
+}
 /*--------------------------------------*/
 .E0{
 	color: white;
 	background: black;
 	height: 35px;
 	border-radius: 5px;
+	border-radius: 0px;
 }
 .E0 p {
 	font-size: 23px;
@@ -69,30 +98,20 @@ margin: 0px auto;
 .E3 table th{
 	display: inline-block;
 	padding: 5px 35px;
-	background: #B8BFB7;
+	background: #EEE;
 	
 }
 .E4{
 	display: inline-block;
 	border-width: 1px;
 	width: 51px;
-	
+	padding: 15px 35px;
+	margin-right:5px; 
     text-align: left;
 	margin-top: 5px;
 	border-color: #DDD;
 	border-radius: 4px;
     border-style: solid;
-
-}
-.add{
-	-webkit-transition: opacity 100ms ease-in;
-	opacity: 0;
-    position: absolute;
-    top: 0;
-    left: -1.5em;
-}
-.add:hover{
-	background: red;
 }
 
 
@@ -100,4 +119,6 @@ margin: 0px auto;
 
 
 
-}
+
+
+
