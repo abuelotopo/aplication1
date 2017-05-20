@@ -1,15 +1,28 @@
 
-
 /*BIEN LA PARTE DEL CSS ES FACIL DE AVERIGUAR Y TAMBIEN LA MAYORIA DE ESTOS VALORES YA TU LO DOMINAS ASI QUE NO VEO LA NECESIDAD
 DE MAYOR DOCUMENTACION */
+
+#divp{
+
+	padding: 30px 30px 40px 40px;
+
+}
+
+#span{
+	border-bottom: solid #B1C1AD 6px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+
 html{
 	background: #999;
 }
 body{
-width: 65%;
+width: 61%;
 margin: 0px auto;
 background: white;
 height: 900px;
+margin-top: 55px;
 }
 h3{
 	border-bottom: 1px solid black;
@@ -27,22 +40,24 @@ footer {
 	color: #EA3969;
 }
 .G2{
-	font-size: 35px;
+	font-size: 20px;
 	margin-left: 15px;
+	font-weight: bold;
 }
 .G3{
 	clear: both;
 }
 .G4{
-	background: #EEE;
-	border-radius: 2px;
+	background: #C4C2C2;
+	border-radius: 4px ;
 	width: 100px;
 	height: 20px;
 	margin-bottom: 4px;
+
 }
 .G5{
 	
-	border-radius: 2px;
+	border-radius: 4px;
 	width: 130px;
 	height: 20px;
 	margin-bottom: 4px;
@@ -64,15 +79,26 @@ footer {
 	background: black;
 	height: 35px;
 	border-radius: 5px;
-	border-radius: 0px;
+	
 }
 .E0 p {
-	font-size: 23px;
-	font-style: italic;
+	font-size: 16px;
 	text-align: center;
+	font-family:  sans-serif;
+	font-weight: bold;
+	letter-spacing: 10px;
+	padding: 8px;
 }
 .E1{
 	float: left;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.E1 article p.G2{
+	
+	padding-top: 25px;
+	font-size: 23px;
+	margin-left: 0px;
 }
 .E2{
 	float: right;	
@@ -82,7 +108,7 @@ footer {
 	font-size: 65px;
 	padding: 5px;
 	margin: 0px;
-	border-bottom: solid #E7F0E5 6px;
+	
 }
 .E3{
 	
@@ -94,18 +120,23 @@ footer {
 }
 .E3 table{
 	margin:0 auto;
+	text-align: center;
+	margin-top: 30px;
+
 }
 .E3 table th{
 	display: inline-block;
-	padding: 5px 35px;
+	padding: 5px 23px;
 	background: #EEE;
+	border: 1px solid grey;
+	border-radius: 5px;
 	
 }
 .E4{
 	display: inline-block;
 	border-width: 1px;
-	width: 51px;
-	padding: 15px 35px;
+	width: 40px;
+	padding: 15px 30px;
 	margin-right:5px; 
     text-align: left;
 	margin-top: 5px;
@@ -113,6 +144,14 @@ footer {
 	border-radius: 4px;
     border-style: solid;
 }
+
+
+
+
+
+
+
+
 
 
 
